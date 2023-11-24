@@ -2,7 +2,7 @@
 
 # パッケージ名を指定
 name="Health_Display"
-version="0.0.1"
+version="1.0.0"
 
 # ディレクトリの作成
 mkdir -p ./package

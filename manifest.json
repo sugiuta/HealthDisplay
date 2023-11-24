@@ -1,11 +1,11 @@
 {
     "format_version": 2,
     "header": {
-        "description": "ネームタグにHPを表示させるアドオンです。このアドオンを使用する際は§c§lベータAPIをオン§rにしてください。",
+        "description": "ネームタグにHPを表示させるアドオンです。",
         "name": "§c§lHP表示§fアドオン",
         "uuid": "6a26c6d5-5b8f-4a38-b263-cfa7ae9a83f8",
-        "version": [ 0, 0, 1 ],
-        "min_engine_version": [ 1, 19, 50 ]
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 40 ]
     },
     "modules": [
         {
@@ -13,19 +13,19 @@
             "type": "script",
             "language": "javascript",
             "uuid": "178b91e3-c10c-40ca-adc4-935fc21ab0a8",
-            "version": [ 0, 0, 1 ],
+            "version": [ 1, 0, 0 ],
             "entry": "scripts/main.js"
         }
     ],
     "dependencies": [
       {
         "module_name": "@minecraft/server",
-        "version": "1.1.0-beta"
+        "version": "1.6.0"
       }
     ],
     "metadata": {
         "authors": [
-          "Sugiuta - Twitter: @FeAr_sugi"
+          "Sugiuta - Twitter: @sugiutadev"
         ],
         "license": "MIT",
         "url": "https://github.com/sugiuta/HealthDisplay"
