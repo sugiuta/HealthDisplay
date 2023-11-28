@@ -4,7 +4,7 @@
         "description": "ネームタグにHPを表示させるアドオンです。",
         "name": "§c§lHP表示§fアドオン",
         "uuid": "6a26c6d5-5b8f-4a38-b263-cfa7ae9a83f8",
-        "version": [ 1, 0, 0 ],
+        "version": [ 1, 0, 1 ],
         "min_engine_version": [ 1, 20, 40 ]
     },
     "modules": [
